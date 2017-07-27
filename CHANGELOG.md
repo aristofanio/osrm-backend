@@ -15,6 +15,8 @@
       - Reorders arguments to `WayHandlers` functions to match `process_way()`.
       - Profiles must return a hash of profile functions. This makes it easier for profiles to include each other.
       - Guidance: add support for throughabouts
+      - BREAKING: the file format requires re-processing due to the changes on via-ways
+      - Added support for via-way restrictions
 
 # 5.9.2
     - API:
